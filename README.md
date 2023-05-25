@@ -32,7 +32,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
   
-Write here  
+**Resource Groups:**
+  
+To create the Resource Group, you have two options. You can either perform a quick search for "Resource Group" at the top of the Azure portal, or you can select "Create a Resource" and then choose to create the Resource Group from the Azure Marketplace.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -42,7 +44,7 @@ Write here
 
 <p>
   
-Write here  
+After creating the resource group, select + Create.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -52,7 +54,9 @@ Write here
 
 <p>
   
-Write here  
+Select Subscription, which will be Azure subscription 1, and enter your custom created Resource Group. 
+  
+Select the preferred region that is nearest to you, which will assist saving on cost in our case.   
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
