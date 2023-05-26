@@ -184,6 +184,47 @@ Once you open Wirehsark, click Ethernet. Then, click the blue fin to begin captu
   
 Retrieve the private IP address from VM2, and ping it into VM1. The purpose of the ping command is to test the connection between the virtual machines. 
   
+By filtering the ICMP packets in Wireshark, we can view the traffic travel from VM1 to VM2. You have the option to ping other IP addresses or domain names like "www.google.com" using Wireshark. The filtered traffic (ICMP), and the corresponding request and reply can be observed in the captured Wireshark data and the PowerShell output displayed below.
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+By adding a rule to the Network Security Group in VM2, we can deny the ping request. As a result, the PowerShell output shows a timeout and Wireshark no longer displays a reply for this request.
+  
+After configuring the network security group inbound rules to deny ICMP (ping) traffic, both Wireshark and PowerShell show timeouts for the ping requests. The requests are no longer received and are reflected below. 
+  
+In the Azure portal, search for Network Security Group, and click on VM 2 (Linux Ubuntu Server).
+  
+To add a new inbound security rule, go to Inbound security rules and click + Add. Tick ICMP under the protocol options and set the action to Deny. Assign a priority before 300 to ensure the rule takes effect before others.
+  
+>**Note**: Priority increases as the number decreases.
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+After creating the rule, in PowerShell you will see "Request timed out" and Wireshark will only display the ICMP requests.  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+To re-enable the rule, you can either delete it from the network security group or select it and choose to allow the rule again.
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
