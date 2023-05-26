@@ -233,7 +233,9 @@ To re-enable the rule, you can either delete it from the network security group 
 
 <p>
   
-Write here  
+In Wireshark, apply the filter "SSH" or "tcp.port == 22". In PowerShell, use the command "ssh username@ip_address" with the private IP address to log in to the Linux Ubuntu Server.
+  
+After typing "yes" to confirm the connection, enter the password (note that it won't be displayed). Execute commands like touch, pwd, or ls in the Linux SSH session. WireShark captures SSH traffic. To exit the SSH connection, type "exit" and press Enter.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -243,7 +245,41 @@ Write here
 
 <p>
   
-Write here  
+Filter Wireshark for "DHCP traffic." Execute the command "ipconfig /renew" in VM1 (Windows 10 21H2) to obtain a new IP address. WireShark now captures DHCP traffic.
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Apply a filter in Wireshark to display only DNS traffic. Click the refresh button to clear any existing traffic.
+  
+Execute the command "nslookup www.disney.com" in PowerShell to retrieve the IP addresses associated with the domain "www.disney.com."  
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Filter for RDP traffic (tcp.port == 3389) in Wireshark to exclusively capture the ongoing transmission of live stream data between computers. 
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+To delete the resource group, search for "Resource Group" and select the one containing the two virtual machines (Windows 10 Pro & Linux Ubuntu Server).
+  
+After selecting the Resource Group, enter the name and choose "Delete" at the top of the page, followed by the final delete button at the bottom.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
