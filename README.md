@@ -58,7 +58,7 @@ Select Subscription, which will be `Azure subscription 1`, and enter your custom
   
 Select the preferred region that is _nearest_ to you, which will assist saving on cost in our case.   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6sUN0c7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -74,7 +74,7 @@ To create the first virtual machine, which will be running the **Windows operati
   
 Choose `+ Create`, then select **"Create a virtual machine hosted by azure"** option.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/83F3N01.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
