@@ -34,7 +34,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 ### **Resources:**
   
-To create the Resource Group, you have two options. You can either perform a quick search for "Resource Group" at the top of the Azure portal, or you can select "Create a Resource" and then choose to create the Resource Group from the Azure Marketplace.  
+To create the Resource Group, you have _two_ options. You can either perform a quick search for **"Resource Group"** at the top of the Azure portal, _or_ you can select **"Create a Resource"** and then choose to create the Resource Group from the Azure Marketplace.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -44,7 +44,7 @@ To create the Resource Group, you have two options. You can either perform a qui
 
 <p>
   
-After creating the resource group, select + Create.  
+After creating the resource group, select `+ Create`.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -54,9 +54,9 @@ After creating the resource group, select + Create.
 
 <p>
   
-Select Subscription, which will be Azure subscription 1, and enter your custom created Resource Group. 
+Select Subscription, which will be `Azure subscription 1`, and enter your custom created Resource Group. 
   
-Select the preferred region that is nearest to you, which will assist saving on cost in our case.   
+Select the preferred region that is _nearest_ to you, which will assist saving on cost in our case.   
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -70,9 +70,9 @@ Select the preferred region that is nearest to you, which will assist saving on 
   
 >**Note**: The two virtual machines allows us to send traffic between the two machines. Name the two virtual machines to whatever name you prefer, as long as you can remember its names. 
   
-To create the first virtual machine, which will be running the Windows operating system and named VM1, you can perform a quick search at the top of the Azure portal for "Virtual Machine," and then select "Virtual machines" from the search results.
+To create the first virtual machine, which will be running the **Windows operating system** and named `VM1`, you can perform a quick search at the top of the Azure portal for **"Virtual Machine"**, and then select **"Virtual machines"** from the search results.
   
-Choose + Create, then select "Create a virtual machine hosted by azure" option.  
+Choose `+ Create`, then select **"Create a virtual machine hosted by azure"** option.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -82,7 +82,7 @@ Choose + Create, then select "Create a virtual machine hosted by azure" option.
 
 <p>
   
-Select the "subscription", same "resource group" (RG-LAB-2), name the virtual machine as VM1, select the same region, and set the image as Windows 10 Pro Version. 
+Select the **"subscription"**, same **"resource group" (RG-LAB-2)**, name the virtual machine as `VM1`, select the **same region**, and set the image as `Windows 10 Pro Version`. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -94,7 +94,7 @@ Select the "subscription", same "resource group" (RG-LAB-2), name the virtual ma
   
 >**Note**: Make sure to check the licensing checkbox to avoid encountering an error message during the validation process when creating the virtual machine.
   
-Allow port 3389, to remote desktop into the virtual machine later in this lab.   
+**Allow port 3389**, to remote desktop into the virtual machine later in this lab.   
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -104,7 +104,7 @@ Allow port 3389, to remote desktop into the virtual machine later in this lab.
 
 <p>
   
-Allow the networking and the other settings as default, and select Review. If necessary, review the details that have been selected for this Virtual Machine. Once the details of the settings are in order, click Create. 
+Allow the networking and the other settings as default, and select `Review`. If necessary, review the details that have been selected for this Virtual Machine. Once the details of the settings are in order, click `Create`. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -114,7 +114,7 @@ Allow the networking and the other settings as default, and select Review. If ne
 
 <p>
   
-We will now create Virtual Machine 2 (VM2) with Linux Ubuntu Server, which will be using a ssh public key instead of a password for authentication for remote access. Once you set the remaining parts of the settings as default, click on Review, then Create.  
+We will now create Virtual Machine 2 (`VM2`) with Linux Ubuntu Server, which will be using a **ssh public key** _instead_ of a password for authentication for remote access. Once you set the remaining parts of the settings as default, click on `Review`, then `Create`.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
@@ -137,7 +137,7 @@ These two Virtual Machines will be used for Remote desktop, and observing differ
   
 ### **Wireshark:**
   
-By performing a quick search for "remote desktop connection," you will be able to access the VM. Enter the public IP address details of VM1 (Windows 10 21H2) to install Wireshark, a packet analysis software, directly on the VM instead of using your local machine.  
+By performing a quick search for **"remote desktop connection"**, you will be able to access the VM. Enter the _public IP address_ details of `VM1` (Windows 10 21H2) to install Wireshark, a packet analysis software, directly on the VM instead of using your local machine.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -147,7 +147,7 @@ By performing a quick search for "remote desktop connection," you will be able t
 
 <p>
   
-With VM1 (Windows Pro), download Wireshark. 
+With `VM1` (Windows Pro), download Wireshark. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -159,7 +159,7 @@ With VM1 (Windows Pro), download Wireshark.
   
 >**Note**: Npcap is the Windows version of the libpcap library which includes a driver to support capturing packets. Wireshark uses this library to capture live network data on Windows.
   
-Once Npcap appears, install with defaults. After Wirehsark is installed, do a quick search on the bottom left of the Windows Virtual Machine for Wireshark to open.
+Once Npcap appears, install with _defaults_. After Wirehsark is installed, do a quick search on the bottom left of the Windows Virtual Machine for Wireshark to open.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -169,7 +169,7 @@ Once Npcap appears, install with defaults. After Wirehsark is installed, do a qu
 
 <p>
   
-Once you open Wirehsark, click Ethernet. Then, click the blue fin to begin capturing packets. Once finished, you will see the network traffic within the Windows Virtual Machine.   
+Once you open Wirehsark, click `Ethernet`. Then, click the blue fin to begin capturing packets. Once finished, you will see the network traffic within the Windows Virtual Machine.   
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
@@ -182,9 +182,9 @@ Once you open Wirehsark, click Ethernet. Then, click the blue fin to begin captu
   
 ### **Network Protocols:**
   
-Retrieve the private IP address from VM2, and ping it into VM1. The purpose of the ping command is to test the connection between the virtual machines. 
+Retrieve the _private IP address_ from `VM2`, and **ping** it into `VM1`. The purpose of the **ping command** is to test the connection between the virtual machines. 
   
-By filtering the ICMP packets in Wireshark, we can view the traffic travel from VM1 to VM2. You have the option to ping other IP addresses or domain names like "www.google.com" using Wireshark. The filtered traffic (ICMP), and the corresponding request and reply can be observed in the captured Wireshark data and the PowerShell output displayed below.
+By filtering the **ICMP** packets in Wireshark, we can view the traffic travel from `VM1` to `VM2`. You have the option to **ping** other IP addresses or domain names like "_www.google.com_" using Wireshark. The filtered traffic (**ICMP**), and the corresponding request and reply can be observed in the captured Wireshark data and the PowerShell output displayed below.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
@@ -195,13 +195,13 @@ By filtering the ICMP packets in Wireshark, we can view the traffic travel from 
 
 <p>
   
-By adding a rule to the Network Security Group in VM2, we can deny the ping request. As a result, the PowerShell output shows a timeout and Wireshark no longer displays a reply for this request.
+By adding a rule to the **Network Security Group** in `VM2`, we can deny the ping request. As a result, the PowerShell output shows a timeout and Wireshark no longer displays a reply for this request.
   
-After configuring the network security group inbound rules to deny ICMP (ping) traffic, both Wireshark and PowerShell show timeouts for the ping requests. The requests are no longer received and are reflected below. 
+After configuring the _network security group inbound rules to deny ICMP (ping) traffic_, both Wireshark and PowerShell show timeouts for the ping requests. The requests are no longer received and are reflected below. 
   
-In the Azure portal, search for Network Security Group, and click on VM 2 (Linux Ubuntu Server).
+In the Azure portal, search for **Network Security Group**, and click on `VM2` (Linux Ubuntu Server).
   
-To add a new inbound security rule, go to Inbound security rules and click + Add. Tick ICMP under the protocol options and set the action to Deny. Assign a priority before 300 to ensure the rule takes effect before others.
+To add a _new inbound security rule_, go to **Inbound security rules** and click `+ Add`. Tick **ICMP** under the protocol options and set the action to **Deny**. Assign a priority before **300** to ensure the rule takes effect before others.
   
 >**Note**: Priority increases as the number decreases.
   
@@ -213,7 +213,7 @@ To add a new inbound security rule, go to Inbound security rules and click + Add
 
 <p>
   
-After creating the rule, in PowerShell you will see "Request timed out" and Wireshark will only display the ICMP requests.  
+After creating the rule, in PowerShell you will see **"Request timed out"** and Wireshark will only display the **ICMP** requests.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -223,7 +223,7 @@ After creating the rule, in PowerShell you will see "Request timed out" and Wire
 
 <p>
   
-To re-enable the rule, you can either delete it from the network security group or select it and choose to allow the rule again.
+To re-enable the rule, you can _either_ delete it from the network security group _or_ select it and choose to allow the rule again.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -233,19 +233,9 @@ To re-enable the rule, you can either delete it from the network security group 
 
 <p>
   
-In Wireshark, apply the filter "SSH" or "tcp.port == 22". In PowerShell, use the command "ssh username@ip_address" with the private IP address to log in to the Linux Ubuntu Server.
+In Wireshark, apply the filter **"SSH"** or **"tcp.port == 22"**. In PowerShell, use the command **"ssh username@ip_address"** with the _private IP address_ to log in to the Linux Ubuntu Server.
   
-After typing "yes" to confirm the connection, enter the password (note that it won't be displayed). Execute commands like touch, pwd, or ls in the Linux SSH session. WireShark captures SSH traffic. To exit the SSH connection, type "exit" and press Enter.  
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
-
-<p>
-  
-Filter Wireshark for "DHCP traffic." Execute the command "ipconfig /renew" in VM1 (Windows 10 21H2) to obtain a new IP address. WireShark now captures DHCP traffic.
+After typing _"yes"_ to confirm the connection, enter the password (note that it won't be displayed). Execute commands like **touch, pwd, _or_ ls** in the Linux SSH session. WireShark captures **SSH** traffic. To exit the **SSH** connection, type "exit" and press `Enter`.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -255,9 +245,7 @@ Filter Wireshark for "DHCP traffic." Execute the command "ipconfig /renew" in VM
 
 <p>
   
-Apply a filter in Wireshark to display only DNS traffic. Click the refresh button to clear any existing traffic.
-  
-Execute the command "nslookup www.disney.com" in PowerShell to retrieve the IP addresses associated with the domain "www.disney.com."  
+Filter Wireshark for **"DHCP traffic"**. Execute the command **"ipconfig /renew"** in VM1 (Windows 10 21H2) to obtain a _new_ IP address. WireShark now captures **DHCP** traffic.
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -267,7 +255,9 @@ Execute the command "nslookup www.disney.com" in PowerShell to retrieve the IP a
 
 <p>
   
-Filter for RDP traffic (tcp.port == 3389) in Wireshark to exclusively capture the ongoing transmission of live stream data between computers. 
+Apply a filter in Wireshark to display only **DNS** traffic. Click the refresh button to clear any existing traffic.
+  
+Execute the command **"nslookup www.disney.com"** in PowerShell to retrieve the IP addresses associated with the domain "www.disney.com."  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -277,9 +267,19 @@ Filter for RDP traffic (tcp.port == 3389) in Wireshark to exclusively capture th
 
 <p>
   
-To delete the resource group, search for "Resource Group" and select the one containing the two virtual machines (Windows 10 Pro & Linux Ubuntu Server).
+Filter for **RDP** traffic (**tcp.port == 3389**) in Wireshark to exclusively capture the ongoing transmission of live stream data between computers. 
   
-After selecting the Resource Group, enter the name and choose "Delete" at the top of the page, followed by the final delete button at the bottom.  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+To delete the resource group, search for **"Resource Group"** and select the one containing the two virtual machines (Windows 10 Pro & Linux Ubuntu Server).
+  
+After selecting the Resource Group, enter the name and choose **"Delete"** at the top of the page, followed by the final delete button at the bottom.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
