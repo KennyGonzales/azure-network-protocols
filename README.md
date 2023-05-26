@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 To create the Resource Group, you have _two_ options. You can either perform a quick search for **"Resource Group"** at the top of the Azure portal, _or_ you can select **"Create a Resource"** and then choose to create the Resource Group from the Azure Marketplace.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FxzaFf3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
