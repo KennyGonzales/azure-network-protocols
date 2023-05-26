@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
   
-**Resource Groups:**
+### **Resources:**
   
 To create the Resource Group, you have two options. You can either perform a quick search for "Resource Group" at the top of the Azure portal, or you can select "Create a Resource" and then choose to create the Resource Group from the Azure Marketplace.  
   
@@ -66,7 +66,13 @@ Select the preferred region that is nearest to you, which will assist saving on 
 
 <p>
   
-Write here  
+### **Virtual Machines:**
+  
+>**Note**: The two virtual machines allows us to send traffic between the two machines. Name the two virtual machines to whatever name you prefer, as long as you can remember its names. 
+  
+To create the first virtual machine, which will be running the Windows operating system and named VM1, you can perform a quick search at the top of the Azure portal for "Virtual Machine," and then select "Virtual machines" from the search results.
+  
+Choose + Create, then select "Create a virtual machine hosted by azure" option.  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -76,7 +82,39 @@ Write here
 
 <p>
   
-Write here  
+Select the "subscription", same "resource group" (RG-LAB-2), name the virtual machine as VM1, select the same region, and set the image as Windows 10 Pro Version. 
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+>**Note**: Make sure to check the licensing checkbox to avoid encountering an error message during the validation process when creating the virtual machine.
+  
+Allow port 3389, to remote desktop into the virtual machine later in this lab.   
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+Allow the networking and the other settings as default, and select Review + Create. If necessary, review the details that have been selected for this Virtual Machine. Once the details of the settings are in order, click Create. 
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+  
+  
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
