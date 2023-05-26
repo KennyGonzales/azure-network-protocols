@@ -286,3 +286,12 @@ After selecting the Resource Group, enter the name and choose "Delete" at the to
 <p>
 </p>
 <br />
+
+|Terms | Descriptions|
+|-------|------------|
+|Remote Desktop| Remote desktop enables users to establish a connection with a computer located elsewhere, providing a view of its desktop and allowing interaction as if it were a local machine.
+|DHCP| Dynamic Host Configuration Protocol is a network management protocol that automates the process of assigning IP addresses and other communication parameters to devices connected to an IP network. It follows a client-server architecture.
+|DNS| Domain Name System converts easily recognizable domain names (such as www.amazon.com) into numerical IP addresses (such as 192.0.2.44) that computers can understand.
+|SSH| Secure Shell facilitates secure remote connections between computers, enabling command line access from one system to another.
+|RDP| Remote Dekstop Protocol is used when remotely connecting from one computer to another to gain a remote desktop GUI (Graphical User Interface)
+|ICMP| Internet Control Message Protocol is a network protocol used for diagnostics and error reporting in IP networks. It allows devices to exchange control messages to verify connectivity, troubleshoot issues, and report errors. ICMP is commonly used with the ping utility to test network host reachability and response time.
