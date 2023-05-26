@@ -46,7 +46,7 @@ To create the Resource Group, you have _two_ options. You can either perform a q
   
 After creating the resource group, select `+ Create`.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gtx1Q7w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
