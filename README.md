@@ -58,7 +58,7 @@ Select Subscription, which will be `Azure subscription 1`, and enter your custom
   
 Select the preferred region that is _nearest_ to you, which will assist saving on cost in our case.   
   
-<img src="https://i.imgur.com/6sUN0c7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Duyg1sp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -74,7 +74,7 @@ To create the first virtual machine, which will be running the **Windows operati
   
 Choose `+ Create`, then select **"Create a virtual machine hosted by azure"** option.  
   
-<img src="https://i.imgur.com/83F3N01.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WZsRz4v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -84,7 +84,7 @@ Choose `+ Create`, then select **"Create a virtual machine hosted by azure"** op
   
 Select the **"subscription"**, same **"resource group" (RG-LAB-2)**, name the virtual machine as `VM1`, select the **same region**, and set the image as `Windows 10 Pro Version`. 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5b6ChDv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -96,7 +96,7 @@ Select the **"subscription"**, same **"resource group" (RG-LAB-2)**, name the vi
   
 **Allow port 3389**, to remote desktop into the virtual machine later in this lab.   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hZ4Xi8o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
