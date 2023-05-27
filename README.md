@@ -268,7 +268,7 @@ Execute the command **"nslookup www.disney.com"** in PowerShell to retrieve the 
   
 Filter for **RDP** traffic (**tcp.port == 3389**) in Wireshark to exclusively capture the ongoing transmission of live stream data between computers. 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5Bi0u7q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -280,7 +280,7 @@ To delete the resource group, search for **"Resource Group"** and select the one
   
 After selecting the Resource Group, enter the name and choose **"Delete"** at the top of the page, followed by the final delete button at the bottom.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KG568Ir.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
