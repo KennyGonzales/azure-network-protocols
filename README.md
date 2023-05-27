@@ -236,7 +236,7 @@ In Wireshark, apply the filter **"SSH"** or **"tcp.port == 22"**. In PowerShell,
   
 After typing _"yes"_ to confirm the connection, enter the password (note that it won't be displayed). Execute commands like **touch, pwd, _or_ ls** in the Linux SSH session. WireShark captures **SSH** traffic. To exit the **SSH** connection, type "exit" and press `Enter`.  
   
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bwKBXBB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -246,7 +246,7 @@ After typing _"yes"_ to confirm the connection, enter the password (note that it
   
 Filter Wireshark for **"DHCP traffic"**. Execute the command **"ipconfig /renew"** in VM1 (Windows 10 21H2) to obtain a _new_ IP address. WireShark now captures **DHCP** traffic.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eLSNXRg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -258,7 +258,7 @@ Apply a filter in Wireshark to display only **DNS** traffic. Click the refresh b
   
 Execute the command **"nslookup www.disney.com"** in PowerShell to retrieve the IP addresses associated with the domain "www.disney.com."  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Tmaz91j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
