@@ -127,7 +127,7 @@ We will now create Virtual Machine 2 (`VM2`) with Linux Ubuntu Server, which wil
   
 These two Virtual Machines will be used for Remote desktop, and observing different network traffic between the two virtual machines.   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v8ZBaWF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
