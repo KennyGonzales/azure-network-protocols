@@ -139,7 +139,7 @@ These two Virtual Machines will be used for Remote desktop, and observing differ
   
 By performing a quick search for **"remote desktop connection"**, you will be able to access the VM. Enter the _public IP address_ details of `VM1` (Windows 10 21H2) to install Wireshark, a packet analysis software, directly on the VM instead of using your local machine.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oo8uzXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -149,7 +149,7 @@ By performing a quick search for **"remote desktop connection"**, you will be ab
   
 With `VM1` (Windows Pro), download Wireshark. 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KlGghgR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -161,7 +161,7 @@ With `VM1` (Windows Pro), download Wireshark.
   
 Once Npcap appears, install with _defaults_. After Wirehsark is installed, do a quick search on the bottom left of the Windows Virtual Machine for Wireshark to open.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eiJ3eLL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -171,8 +171,8 @@ Once Npcap appears, install with _defaults_. After Wirehsark is installed, do a 
   
 Once you open Wirehsark, click `Ethernet`. Then, click the blue fin to begin capturing packets. Once finished, you will see the network traffic within the Windows Virtual Machine.   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/wed8iPj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9ghUZ4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
@@ -186,8 +186,7 @@ Retrieve the _private IP address_ from `VM2`, and **ping** it into `VM1`. The pu
   
 By filtering the **ICMP** packets in Wireshark, we can view the traffic travel from `VM1` to `VM2`. You have the option to **ping** other IP addresses or domain names like "_www.google.com_" using Wireshark. The filtered traffic (**ICMP**), and the corresponding request and reply can be observed in the captured Wireshark data and the PowerShell output displayed below.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/FTj5iNA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -205,7 +204,7 @@ To add a _new inbound security rule_, go to **Inbound security rules** and click
   
 >**Note**: Priority increases as the number decreases.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/R1MOIa2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -215,7 +214,7 @@ To add a _new inbound security rule_, go to **Inbound security rules** and click
   
 After creating the rule, in PowerShell you will see **"Request timed out"** and Wireshark will only display the **ICMP** requests.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PbnL1jl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -225,7 +224,7 @@ After creating the rule, in PowerShell you will see **"Request timed out"** and 
   
 To re-enable the rule, you can _either_ delete it from the network security group _or_ select it and choose to allow the rule again.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DVgvmtJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -237,7 +236,7 @@ In Wireshark, apply the filter **"SSH"** or **"tcp.port == 22"**. In PowerShell,
   
 After typing _"yes"_ to confirm the connection, enter the password (note that it won't be displayed). Execute commands like **touch, pwd, _or_ ls** in the Linux SSH session. WireShark captures **SSH** traffic. To exit the **SSH** connection, type "exit" and press `Enter`.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
