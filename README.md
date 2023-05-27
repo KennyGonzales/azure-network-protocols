@@ -106,7 +106,7 @@ Select the **"subscription"**, same **"resource group" (RG-LAB-2)**, name the vi
   
 Allow the networking and the other settings as default, and select `Review`. If necessary, review the details that have been selected for this Virtual Machine. Once the details of the settings are in order, click `Create`. 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LzkodDM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -114,10 +114,10 @@ Allow the networking and the other settings as default, and select `Review`. If 
 
 <p>
   
-We will now create Virtual Machine 2 (`VM2`) with Linux Ubuntu Server, which will be using a **ssh public key** _instead_ of a password for authentication for remote access. Once you set the remaining parts of the settings as default, click on `Review`, then `Create`.  
+We will now create Virtual Machine 2 (`VM2`) with Linux Ubuntu Server, which will be using a **password** _instead_ of a ssh public key for authentication for remote access. Once you set the remaining parts of the settings as default, click on `Review`, then `Create`.  
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/WnaZd7a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9L92NEk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 </p>
